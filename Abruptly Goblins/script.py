@@ -16,3 +16,8 @@ add_gamer({'name':'Latasha Bryan','availability': ["Monday", "Sunday"]}, gamers)
 add_gamer({'name':'Crystal Brewer','availability': ["Thursday", "Friday", "Saturday"]}, gamers)
 add_gamer({'name':'James Barnes Jr.','availability': ["Tuesday", "Wednesday", "Thursday", "Sunday"]}, gamers)
 add_gamer({'name':'Michel Trujillo','availability': ["Monday", "Tuesday", "Wednesday"]}, gamers)
+
+def build_daily_frequency_table():
+    return {'availability': 0}
+
+count_availability = build_daily_frequency_table
