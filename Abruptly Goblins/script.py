@@ -1,11 +1,12 @@
 gamers = []
-def add_gamer(name, gamers_list):
+def add_gamer(gamer, gamers_list):
     if gamer.get("name") and gamer.get("availability"):
         gamers_list.append(gamers)
     else:
         print("Gamer missing critical information")
 
-add_gamer({'name':"Kimberly Warner",'availability':["Monday", "Tuesday",  "Friday"]}, gamers)
+add_gamer({'name':'Kimberly Warner','availability':["Monday", "Tuesday",  "Friday"]}, gamers)
+
 add_gamer({'name':'Thomas Nelson','availability': ["Tuesday", "Thursday", "Saturday"]}, gamers)
 add_gamer({'name':'Joyce Sellers','availability': ["Monday", "Wednesday", "Friday", "Saturday"]}, gamers)
 add_gamer({'name':'Michelle Reyes','availability': ["Wednesday", "Thursday", "Sunday"]}, gamers)
