@@ -6,14 +6,14 @@ def add_gamer(gamer, gamers_list):
     else:
         print("Gamer missing critical information")
 
-kimberly = {
-    'name': "Kimberly Warner",
-    'availability': ["Monday", "Tuesday", "Friday"]
-}
+kimberly = {'name': "Kimberly Warner", 'availability': ["Monday", "Tuesday", "Friday"]}
 
 add_gamer(kimberly, gamers)
 
 print(gamers)
+
+print(gamers)
+
 add_gamer({'name':'Thomas Nelson','availability': ["Tuesday", "Thursday", "Saturday"]}, gamers)
 add_gamer({'name':'Joyce Sellers','availability': ["Monday", "Wednesday", "Friday", "Saturday"]}, gamers)
 add_gamer({'name':'Michelle Reyes','availability': ["Wednesday", "Thursday", "Sunday"]}, gamers)
