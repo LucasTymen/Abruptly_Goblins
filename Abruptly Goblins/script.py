@@ -12,8 +12,6 @@ add_gamer(kimberly, gamers)
 
 print(gamers)
 
-print(gamers)
-
 add_gamer({'name':'Thomas Nelson','availability': ["Tuesday", "Thursday", "Saturday"]}, gamers)
 add_gamer({'name':'Joyce Sellers','availability': ["Monday", "Wednesday", "Friday", "Saturday"]}, gamers)
 add_gamer({'name':'Michelle Reyes','availability': ["Wednesday", "Thursday", "Sunday"]}, gamers)
@@ -23,6 +21,8 @@ add_gamer({'name':'Latasha Bryan','availability': ["Monday", "Sunday"]}, gamers)
 add_gamer({'name':'Crystal Brewer','availability': ["Thursday", "Friday", "Saturday"]}, gamers)
 add_gamer({'name':'James Barnes Jr.','availability': ["Tuesday", "Wednesday", "Thursday", "Sunday"]}, gamers)
 add_gamer({'name':'Michel Trujillo','availability': ["Monday", "Tuesday", "Wednesday"]}, gamers)
+
+print(gamers)
 
 def build_daily_frequency_table():
     return {"Monday": 0,
