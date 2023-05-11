@@ -7,14 +7,29 @@ def add_gamer(gamer, gamers_list):
         print("Gamer missing critical information")
 
 kimberly = {'name': "Kimberly Warner", 'availability': ["Monday", "Tuesday", "Friday"]}
-
 add_gamer(kimberly, gamers)
-
+Tom = {'name':'Thomas Nelson','availability': ["Tuesday", "Thursday", "Saturday"]}
+add_gamer(Tom, gamers)
+Joyce = {'name':'Joyce Sellers','availability': ["Monday", "Wednesday", "Friday", "Saturday"]}
+add_gamer(Joyce, gamers)
+Michelle ={'name':'Michelle Reyes','availability': ["Wednesday", "Thursday", "Sunday"]}
+add_gamer(Michelle, gamers)
+Stephen ={'name':'Stephen Adams','availability': ["Thursday", "Saturday"]}
+add_gamer(Stephen, gamers)
+Joanne ={'name': 'Joanne Lynn', 'availability': ["Monday", "Thursday"]}
+add_gamer(Joanne, gamers)
+Latasha ={'name':'Latasha Bryan','availability': ["Monday", "Sunday"]}
+add_gamer(Latasha, gamers)
+Crystal ={'name':'Crystal Brewer','availability': ["Thursday", "Friday", "Saturday"]}
+add_gamer(Crystal, gamers)
+James ={'name':'James Barnes Jr.','availability': ["Tuesday", "Wednesday", "Thursday", "Sunday"]}
+add_gamer(James, gamers)
+Michel ={'name':'Michel Trujillo','availability': ["Monday", "Tuesday", "Wednesday"]}
+add_gamer(Michel, gamers)
 print(gamers)
 
-add_gamer({'name':'Thomas Nelson','availability': ["Tuesday", "Thursday", "Saturday"]}, gamers)
-add_gamer({'name':'Joyce Sellers','availability': ["Monday", "Wednesday", "Friday", "Saturday"]}, gamers)
-add_gamer({'name':'Michelle Reyes','availability': ["Wednesday", "Thursday", "Sunday"]}, gamers)
+
+
 add_gamer({'name':'Stephen Adams','availability': ["Thursday", "Saturday"]}, gamers)
 add_gamer({'name': 'Joanne Lynn', 'availability': ["Monday", "Thursday"]}, gamers)
 add_gamer({'name':'Latasha Bryan','availability': ["Monday", "Sunday"]}, gamers)
