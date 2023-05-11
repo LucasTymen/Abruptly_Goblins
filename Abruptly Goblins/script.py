@@ -29,4 +29,8 @@ def build_daily_frequency_table():
 
 count_availability = build_daily_frequency_table
 
-def calculate_availability(gamers_list, available_frequency):
+def calculate_availability(gamers_list,available_frequency):
+    available_frequency =[]
+    for gamer in gamers_list:
+        for day in gamer['availability']:
+            available_frequency[day] += 1
