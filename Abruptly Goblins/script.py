@@ -6,7 +6,14 @@ def add_gamer(gamer, gamers_list):
     else:
         print("Gamer missing critical information")
 
-add_gamer({'name':'Kimberly Warner','availability':["Monday", "Tuesday",  "Friday"]}, gamers)
+kimberly = {
+    'name': "Kimberly Warner",
+    'availability': ["Monday", "Tuesday", "Friday"]
+}
+
+add_gamer(kimberly, gamers)
+
+print(gamers)
 add_gamer({'name':'Thomas Nelson','availability': ["Tuesday", "Thursday", "Saturday"]}, gamers)
 add_gamer({'name':'Joyce Sellers','availability': ["Monday", "Wednesday", "Friday", "Saturday"]}, gamers)
 add_gamer({'name':'Michelle Reyes','availability': ["Wednesday", "Thursday", "Sunday"]}, gamers)
@@ -34,3 +41,6 @@ def calculate_availability(gamers_list,available_frequency):
     for gamer in gamers_list:
         for day in gamer['availability']:
             available_frequency[day] += 1
+
+calculate_availability(gamers, count_availability)
+print(count_availability)
