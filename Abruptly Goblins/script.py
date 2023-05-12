@@ -58,6 +58,7 @@ def calculate_availability(gamers_list,available_frequency):
             available_frequency[day] += 1
 
 calculate_availability(gamers, count_availability)
+
 print(count_availability)
 
 def find_best_night(availability_table):
