@@ -94,3 +94,8 @@ def send_email(gamers_who_can_attend, day, game):
         print(form_email.format(name=gamer['name'], day_of_week=day, game=game))
 
 send_email(attending_game_night, game_night, "Abruptly Goblins!")
+
+unable_to_attend_best_night = [gamer for gamer in gamers if game_night not in gamer['availability']]
+second_night_availability = build_daily_frequency_table()
+calculate_availability(unable_to_attend_best_night, second_night_availability)
+second_night = find_best_night(second_night_availability)
