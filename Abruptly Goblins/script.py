@@ -88,3 +88,9 @@ The Sorcery Society is happy to host "{game}" night and wishes you will attend. 
 Magically Yours,
 the Sorcery Society
 """
+
+def send_email(gamers_who_can_attend, day, game):
+    for gamer in gamers_who_can_attend:
+        print(form_email.format(name=gamer['name'], day_of_week=day, game=game))
+
+send_email(attending_game_night, game_night, "Abruptly Goblins!")
