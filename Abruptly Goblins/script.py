@@ -79,3 +79,12 @@ def available_on_night(gamers_list,day):
     attending_game_night = available_on_night(gamers,game_night)
 
     print(attending_game_night)
+
+    form_email = """
+Dear {name},
+
+The Sorcery Society is happy to host "{game}" night and wishes you will attend. Come by on {day_of_week} and have a blast!
+
+Magically Yours,
+the Sorcery Society
+"""
